@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FastExpress Delivery</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background: #111;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff4d4d;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px;
+    background: linear-gradient(to right, #ff4d4d, #ff944d);
+    color: white;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: #ff4d4d;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #222;
+    color: white;
+}
+
+/* Services */
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Contact */
+.contact {
+    padding: 50px;
+    text-align: center;
+    background: #eee;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff4d4d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    color: white;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>FastExpress 🚚</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Fast & Reliable Delivery</h2>
+    <p>We deliver your packages safely and on time.</p>
+    <button>Order Now</button>
+</section>
+
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Same Day Delivery</h3>
+            <p>Quick delivery within hours.</p>
+        </div>
+        <div class="card">
+            <h3>Food Delivery</h3>
+            <p>Hot and fresh meals delivered.</p>
+        </div>
+        <div class="card">
+            <h3>Parcel Delivery</h3>
+            <p>Safe and secure shipping.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 FastExpress Delivery</p>
+</footer>
+
+</body>
+</html>
